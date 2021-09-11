@@ -1,0 +1,11 @@
+/* #213053 font color*/
+/* #FF7139 orange color*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Mazzard H Medium';  
+   margin: 0;
+  padding: 0;
+}

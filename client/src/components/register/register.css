@@ -1,0 +1,87 @@
+html{
+    --value:3%
+}
+
+.registerContainer{
+    padding-top: 80px;
+    background-color: rgb(240, 250, 255);
+    height: 100vh;
+    overflow: hidden;
+    color: #213053;
+    z-index: 10;
+}
+.registerContainer h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.registerContainer .registerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    padding: 10px 60px 0 60px;
+    margin: auto;
+    position: relative;
+}
+.registerContainer .registerContent::before{
+    position: absolute;
+    content: "";
+    right: -210px;
+    bottom:  -290px;
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    background-color: #ccd9f8;
+    opacity: 0.6;
+    z-index: 1;
+}
+.registerContainer .registerContent::after{
+    position: absolute;
+    content: "";
+    left: -290px;
+    top:  -490px;
+    height: 800px;
+    width:800px;
+    border-radius: 50%;
+    background-color: #ffdfd2;
+    opacity: 0.6;
+    z-index: 1;
+}
+.registerContainer .registerContent .sectionOne{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    width: 40%;
+    margin: 0 50px;
+    animation: fadeIn;
+    animation-duration: 1.5s;
+}
+.registerContainer .registerContent .sectionOne >input{
+    padding: 20px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 25px 66px -17px rgba(0, 0, 0, 0.144);
+    outline: none;
+    font-size: 16px;
+    background: #fff;
+    margin: 15px 0;
+}
+.registerContainer .registerContent .sectionOne >input:focus{
+    box-shadow: 0 0 1px 3px #FF7139;
+    transition: 0.3s;
+}
+.registerContainer h3 i{
+    color: #0F6EFF;
+}
+.RegisterBtn{
+    text-align: center;
+    margin: 30px 0 0 0 ;
+}
+.ForLogin{
+    margin-top: 20px;
+}
+.ForLogin a{
+    text-decoration: none;
+    color: #0F6EFF;
+}

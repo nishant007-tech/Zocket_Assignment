@@ -1,0 +1,144 @@
+.HomeContainer{
+    height: 850px;
+    width: 100%;
+    /* position: absolute;
+    top: 0px; */
+    overflow: hidden !important;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding:170px 60px 0px 60px;
+}
+.HomeContainer .HomeSectionOne{
+width: 50%;
+height: 80%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0 40px;
+color: #213053;
+}
+.HomeContainer .HomeSectionOne a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0 26px 46px rgb(15 110 255 / 50%);
+    padding: 26px ;
+    background-color: #0F6EFF;
+    position: relative;
+    width: max-content;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    transition: all .4s ease-in-out;
+    border-radius: 20px;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 22px;
+}
+.HomeContainer .HomeSectionOne a:hover{
+    background-color: unset ;
+    box-shadow: unset ;
+}
+
+.HomeContainer .HomeSectionOne a:hover:before{
+    opacity: 1;
+    width: 100%;
+}
+.HomeContainer .HomeSectionOne a::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    background: #213053;
+    transition: all 0.6s;
+    opacity: 0;
+    z-index: -1;
+}
+.HomeContainer .HomeSectionOne span{
+    opacity: 0.8;
+    color: #213053;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    display: inline-block;
+    line-height: 28px;
+    margin-top: 23px;
+}
+.HomeContainer .HomeSectionOne i{
+    padding-left: 20px;
+}
+.HomeContainer .HomeSectionOne h2{
+    font-size: 65px;
+    line-height: 86px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding: 0;
+    margin: 10px 0;
+}
+.HomeContainer .HomeSectionOne p{
+    opacity: 0.8;
+    color: #213053;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+}
+.HomeContainer .HomeSectionTwo {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    width: 50%;
+    position: relative;
+    height: 80%;
+}
+.HomeContainer .HomeSectionTwo img{
+    width: 100%;
+}
+/* .img1{
+    position: absolute;
+    right: 0px;
+    padding: 40px 10px;
+    animation: mover 1.5s infinite alternate;
+}
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+  }
+.img1 img{
+    height: 90px;
+    vertical-align: middle;
+}
+ .img2{
+    position: absolute;
+    left: 0%;
+    top: 35%;
+    padding: 0px 0px 0px 55px;
+    animation: mover2 2s infinite alternate;
+}
+@keyframes mover2 {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-35px);
+    }
+  }
+  ::-webkit-scrollbar{
+      display: none;
+  } */

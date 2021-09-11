@@ -1,0 +1,31 @@
+.cardsContainer{
+    display: flex;
+    padding: 90px 30px;
+    color: #213053;
+}
+.cardOne,.cardTwo,.cardThree{
+    text-align:center;
+    margin: 0 50px;
+    width: 100%;
+    padding: 10px;
+    /* animation: fadeInLeft;
+    animation-duration: 4s */
+}
+.cardOne img,.cardTwo img,.cardThree img{
+    width: 130px;
+    height: 100px;
+}
+
+.cardOne h3,.cardTwo h3,.cardThree h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+.cardOne p,.cardTwo p,.cardThree p{
+    opacity: 0.8;
+    color: #213053;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+}

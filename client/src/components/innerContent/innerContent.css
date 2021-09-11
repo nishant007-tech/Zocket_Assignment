@@ -1,0 +1,29 @@
+.innerContainer{
+    display: flex;
+    color: #213053;
+    flex-direction: column;
+}
+.innerContainer #firstH2{
+    font-size: 48px;
+    text-align: center;
+}
+.innerContainer .cardContent h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.innerContainer .cardContent{
+    display: flex;
+    margin: 10px 0 40px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.innerContainer .cardContent .cardSectionPart{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    line-height: 30px;
+}
+.innerContainer .cardContent  img{
+    height: 350px;
+}
